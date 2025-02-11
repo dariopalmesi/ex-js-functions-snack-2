@@ -1,9 +1,9 @@
 function creaContatoreAutomatico() {
-    let contatore = 0
+    let contatore = 5
     setInterval(() => {
-        contatore++;
+        contatore--;
         console.log(contatore);
-        clearInterval(contatore === 5)
+        clearInterval(contatore === 0)
     }, 1000)
 }
 
