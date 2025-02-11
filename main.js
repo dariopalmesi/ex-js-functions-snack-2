@@ -1,14 +1,5 @@
-function eseguiEferma(esegui) {
-    esegui()
-    setTimeout(() => {
-        console.log('La funzione è stata esegiuta');
-
-    }, 1000)
-    setTimeout(() => {
-        console.log('Stop');
-    }, 2000)
+function somma(num1, num2) {
+    return num1 + num2
 }
 
-eseguiEferma(
-    () => console.log('Sto per eseguire'),
-)
+const somma = (num1, num1) => num1 + num2
