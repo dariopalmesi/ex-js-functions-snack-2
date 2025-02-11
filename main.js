@@ -1,12 +1,14 @@
-function contoAllaRovescia() {
-    let contatore = 5
-    setInterval(() => {
-        contatore--;
-        console.log(contatore);
-        clearInterval(contatore === 0)
+function eseguiEferma(esegui) {
+    esegui()
+    setTimeout(() => {
+        console.log('La funzione è stata esegiuta');
+
     }, 1000)
+    setTimeout(() => {
+        console.log('Stop');
+    }, 2000)
 }
 
-contoAllaRovescia()
-
-
+eseguiEferma(
+    () => console.log('Sto per eseguire'),
+)
