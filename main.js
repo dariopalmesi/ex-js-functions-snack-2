@@ -1,7 +1,9 @@
-function creaTimer() {
-    setTimeout(() => {
-        console.log('Tempo Scaduto');
+function stampaOgniSecondo() {
+    intervallo = setInterval(() => {
+        console.log('Stampa ogni secondo');
+        clearInterval(intervallo)
     }, 1000)
 }
+stampaOgniSecondo()
 
-creaTimer()
+
