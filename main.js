@@ -1,4 +1,4 @@
-function creaContatoreAutomatico() {
+function contoAllaRovescia() {
     let contatore = 5
     setInterval(() => {
         contatore--;
@@ -7,6 +7,6 @@ function creaContatoreAutomatico() {
     }, 1000)
 }
 
-creaContatoreAutomatico()
+contoAllaRovescia()
 
 
