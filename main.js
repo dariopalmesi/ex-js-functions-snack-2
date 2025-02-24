@@ -1,8 +1,5 @@
 //  Snack 1
 // Crea una funzione che somma due numeri.
-const anonima = function (num1, num2) {
-    const somma = num1 + num2
-}
 // Crea una funzione dichiarativa chiamata somma che accetta due numeri e restituisce la loro somma.
 function somma(num1, num2) {
     return num1 + num2
